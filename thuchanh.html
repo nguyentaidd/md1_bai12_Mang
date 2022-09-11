@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Thêm các phần tử trong mảng và hiển thị chúng-->
+<!--<input type="text" id="txtValue"/>-->
+<!--<input type="button" id="btnAdd" value="Add" onclick="add_element_to_array();"/>-->
+<!--<input type="button" id="btnDisplay" value="Display" onclick="display_array();"/>-->
+<!--<div id="result"></div>-->
+<!--<script>-->
+<!--    let x=0;-->
+<!--    let array=Array();-->
+<!--    function add_element_to_array() {-->
+<!--        array[x] = document.getElementById("txtValue").value;-->
+<!--        alert("Element: " + array[x] + " Added at index " + x);-->
+<!--        x++;-->
+<!--        document.getElementById("txtValue ").value = "";-->
+<!--    }-->
+<!--    function display_array() {-->
+<!--        let e = "<hr/>";-->
+<!--        for (let i = 0; i < array.length; i++) {-->
+<!--            e += "Element " + i + " = " + array[i] + "<br/>";-->
+<!--        }-->
+<!--        document.getElementById("result").innerHTML = e;-->
+<!--    }-->
+<!--</script>-->
+<!--Đảo ngược các phần tử trong mảng-->
+<!--<script>-->
+<!--    let x = [-3, 5, 1, 3, 2, 10];-->
+<!--    let first = 0;-->
+<!--    let last = x.length -1;-->
+<!--    while (first < last) {-->
+<!--        let b = x[first];-->
+<!--        x[first] = x[last];-->
+<!--        x[last] = b;-->
+<!--        first++;-->
+<!--        last&#45;&#45;;-->
+<!--    } document.write(x)-->
+<!--</script>-->
+<!--Tìm giá trị trong mảng-->
+<!--<script>-->
+<!--    let value = prompt("Enter a number: ");-->
+<!--    let numbers = [-3, 5, 1, 3, 2, 10];-->
+<!--    for (let i = 0; i < numbers.length; i++) {-->
+<!--        if (value == numbers[i]) {-->
+<!--            alert("Value " + numbers[i] + "found at " + i);-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+<!--Tìm giá trị lớn nhất trong mảng-->
+<!--<script>-->
+<!--    let numbers = [-3, 5, 1, 3, 2, 10];-->
+<!--    let max = numbers[0];-->
+<!--    let index = 0;-->
+<!--    for (let i = 1; i < numbers.length; i++) {-->
+<!--        if (numbers[i] > max) {-->
+<!--            max = numbers[i];-->
+<!--            index = i;-->
+<!--        }-->
+<!--    }-->
+<!--    alert("max: " + max + " at position " + index);-->
+<!--</script>-->
+<!--Tạo trò cờ caro-->
+<!--<h3>Caro Game Simple</h3>-->
+<!--<p id="carogame" />-->
+<!--<input type="button" value="Change Value" onclick="changeValue()">-->
+<!--<script>-->
+<!--    let b = document.getElementById("carogame");-->
+<!--    let board = [];-->
+<!--    let data = "";-->
+<!--    for (let i = 0; i < 5; i++) {-->
+<!--        board[i] = new Array(0, 0, 0, 0, 0);-->
+<!--    }-->
+<!--    for (let i = 0; i < 5; i++) {-->
+<!--        data += "<br/>";-->
+<!--        for (let j = 0; j < 5; j++) {-->
+<!--            data += board[i][j] + "&nbsp;&nbsp;";-->
+<!--        }-->
+<!--    }-->
+<!--    data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>"-->
+<!--    b.innerHTML = data;-->
+<!--    function changeValue() {-->
+<!--        let positionX = prompt("X: ");-->
+<!--        let positionY = prompt("Y: ");-->
+<!--        data = "";-->
+<!--        board[positionX][positionY] = "x";-->
+<!--        for (let i = 0; i < 5; i++) {-->
+<!--            data += "<br/>";-->
+<!--            for (let j = 0; j < 5; j++) {-->
+<!--                data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";-->
+<!--            }-->
+<!--        }-->
+<!--        data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>"-->
+<!--        b.innerHTML = "<hr/>" + data;-->
+<!--    }-->
+<!--</script>-->
+
+</body>
+</html>
